@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/raw/*
+!data/raw/.keep
+data/processed/*
+!data/processed/.keep
+
+# OS / Editors
+.DS_Store
+.vscode/
+
+# Node (if you add a small frontend later)
+node_modules/
+dist/
