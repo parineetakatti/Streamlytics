@@ -5,6 +5,7 @@ __pycache__/
 .env
 
 # Data
+
 data/raw/*
 !data/raw/.keep
 data/processed/*
@@ -17,3 +18,9 @@ data/processed/*
 # Node (if you add a small frontend later)
 node_modules/
 dist/
+
+# keep processed artifacts for hosting
+
+!data/
+!data/processed/
+!data/processed/*.csv
